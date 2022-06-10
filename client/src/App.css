@@ -1,0 +1,52 @@
+:root{
+    --main-bg-color: #262626;
+    --main-form-bg-color: #194A8D;
+    --main-box-shadow: 3px 3px 8px 8px #888888;
+  
+    --main-font:'Poppins', sans-serif;;
+    --main-font-color:white;
+    --main-font-color-2:rgba(96, 96, 96, 0.8);
+  
+    --main-accents-color:#ff781f;
+  
+    --world-padding:13vw;
+  
+    --main-transition-time:0.5s easy-in-out;
+  }
+  
+  *
+  {
+    padding: 0;
+    margin: 0;
+  
+    box-sizing: border-box
+  }
+  
+  body
+  {
+    font-family: var(--main-font);
+    background-color: var(--main-bg-color);
+    color:var(--main-font-color);
+  }
+  
+  .app-wrap 
+  {
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app-wrap .internal-content
+  {
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

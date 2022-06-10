@@ -1,0 +1,166 @@
+.app-wrap .header
+{
+  width: 100%;
+  height: 10vh;
+
+  padding-left: var(--world-padding);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+
+  font-size: 3.0rem;
+}
+
+.app-wrap .content
+{
+  width: 100%;
+  min-height: 70vh;
+  height: auto;
+
+  padding-left: var(--world-padding);
+  padding-right: var(--world-padding);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  color:white;
+  padding-top: 20vh;
+}
+
+.app-wrap .content form
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 80%;
+  height: auto;
+}
+.app-wrap .content form > section
+{
+  width: 100%;
+  height: 5vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin-bottom: 1vh;
+}
+.app-wrap .content form > section input[type="file"]
+{
+  display: none;
+}
+.app-wrap .content form > section .sendImg
+{
+  width: fit-content;
+  height: 100%;
+
+  background-color: var(--main-accents-color);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  overflow: hidden;
+
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+
+  padding-right: 1vw;
+  padding-left: 1vw;
+
+  border-radius: 1vh;
+}
+.app-wrap .content form > section .sendImg img
+{
+  height: 4vh;
+  margin-right: 0.3vw;
+}
+.app-wrap .content form > section .sendImg p
+{
+  font-size: medium;
+}
+.app-wrap .content form > section input[type="submit"]
+{
+  transition: border-color 0.5s, background-color 0.5s;
+  width: fit-content;
+  height: fit-content;
+
+  border-radius: 1vh;
+
+  border:0.1rem solid;
+  border-color: transparent;
+
+  background-color: transparent;
+  color:var(--main-font-color-2);
+
+  text-align: center;
+
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+.app-wrap .content form > section input[type="submit"]:hover
+{
+  border-color: var(--main-font-color-2);
+}
+.app-wrap .content form > section input[type="submit"]:active
+{
+  background-color: var(--main-accents-color);
+}
+/*------- INFORMATION -------*/
+.app-wrap .content .info {
+  transition: font-size 0.5s ease-in-out;
+
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 3vh;
+}
+.app-wrap .content .info h2 {
+  color:var(--main-font-color);
+}
+.app-wrap .content .info div {
+  font-size: large;
+  border-bottom: 0.1vh solid var(--main-font-color);
+}
+.app-wrap .content .info li {
+  color:var(--main-font-color);
+}
+.app-wrap .content .info li span {
+  color:var(--main-font-color);
+}
+
+.app-wrap .footer 
+{
+  width: 100%;
+  height: 20vh;
+
+  padding-left: var(--world-padding);
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  font-size: 0.8rem;
+  color:var(--main-font-color-2);
+}
