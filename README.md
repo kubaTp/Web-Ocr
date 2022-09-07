@@ -1,6 +1,6 @@
-### ORGANIZACJA
+### INFO
 
-Plik 'text-long.png' i plik 'text.png' to przykładowe pliki png przygotowane do testowanie strony
+FILE 'text-long.png' and 'text.png' are sample files to test ocr
 
 ### CLIENT
 
