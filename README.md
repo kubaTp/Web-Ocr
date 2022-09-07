@@ -1,6 +1,6 @@
 ### INFO
 
-FILE 'text-long.png' and 'text.png' are sample files to test ocr
+File 'text-long.png' and 'text.png' are sample files to test ocr
 
 ### CLIENT
 
